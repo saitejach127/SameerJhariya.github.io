@@ -1,0 +1,18 @@
+/*.scroller{
+	height: 40%;
+	background-color: purple;
+}
+
+.sorroundContainer{
+	height: 100%;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.hPage{
+	display: inline-block;
+	height: 100%;
+	width: 33%;
+	background-color: blue;
+}
+*/

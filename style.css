@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Poopins:400,500,700');
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Poopins' ,san-serif;
+	/*font-family: 'Arvo', serif;*/
+	color: #222;
+}
+
+
+.navbar{
+	padding: .8rem;
+	font-family: "Times New Roman",Times, serif;
+	color: rgba(0 255 0 0.4);
+	/*font-family: 'Arvo', serif;*/
+}
+
+.navbar .active{
+	border-bottom: 3px solid #006400 ;
+}
+
+.navbar-nav li{
+	font-family: 'Arvo', serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	/*padding: 15px 15px 0px 0px;*/
+}
+
+.navbar-nav li a:hover{
+	border-right: 3px solid #006400;
+	border-left: 3px solid #006400;
+	transition: 0.5s all;
+}
+
+.nav-link{
+	font-size: 1.1em !important;
+}
+
+.part1 .topics{
+	text-align: center;
+	font-family: 'helvetica neue',san-serif;
+	font-weight: bolder;
+}
+.part2 .topics{
+	text-align: center;
+	font-family: 'helvetica neue',san-serif;
+	font-weight: bolder;
+}
+.part3 .topics{
+	text-align: center;
+	font-family: 'helvetica neue',san-serif;
+	font-weight: bolder;
+}
+.part4 .topics{
+	text-align: center;
+	font-family: 'helvetica neue',san-serif;
+	font-weight: bolder;
+}
+
+.part1 .topics-quote{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: lighter;
+	text-align: center;
+}
+.part2 .topics-quote{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: lighter;
+	text-align: center;
+}
+.part3 .topics-quote{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: lighter;
+	text-align: center;
+}
+.part4 .topics-quote{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: lighter;
+	text-align: center;
+}
+
+.part3 h3{
+	font-weight: bold;
+}
+.part3 li{
+	text-align: left;
+	font-weight: bold;
+}
+.part1
+{
+	background: url("bg1.jpg");
+	width: 100%;
+	height: 90%;
+	background-repeat: no-repeat center center fixed;
+	background-size: cover;
+}
+
+.prof-box{
+	width: 400px;
+	height: 500px;
+	background: rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'helvetica neue',san-serif;
+}
+.prof-box h1{
+	letter-spacing: 8;	
+}
+.prof-pic{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+}
+
+.part2{
+	background: #549AF3;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat center center fixed;
+	background-size: cover;
+}
+.topics p{
+	text-align: center;
+	font-family: 'helvetica neue',san-serif;
+}
+.part2 .skills{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.part3{
+	background: rgb(128,0,0);
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat center center fixed;
+	background-size: cover;
+}
+.Quote{
+	/*border-right: 20px
+	border-color: white;*/
+	border-left: 2px solid white;
+	/*border: 2px solid black;*/
+}
+
+
+.fa-facebook{
+	color: #3b5998; font-size: 2em;
+}
+
+.fa-envelope{
+	color: #B23121; font-size: 2em;
+}
+.fa-wordpress{
+	color: #21759b; font-size: 2em;
+}
+.fa-instagram{
+	color: #c1558b; font-size: 2em;
+}
+.fa-youtube{
+	color: #bb0000; font-size: 2em;
+}
+ .fa-facebook:hover,
+ .fa-envelope:hover,
+ .fa-wordpress:hover,
+ .fa-instagram:hover,
+ .fa-youtube:hover{
+ 		color: #d5d5d5;
+ 		font-size: 0.7em;
+ }
+
+
+
+
+@media(768px){
+
+	.navbar-toggler{
+		margin: 10px 0px 10px 30px;
+		background-color: #888888;
+		
+	}
+	.navbar-toggler:hover, .navbar-toggler:focus{
+			background-color: #fff;
+			border-color: #000000;
+	}
+
+	.navbar-light{
+		background-color: #fff;
+	}
+	.navbar-nav li a{
+		text-align: center;
+		background-color: #C0C0C0;
+	}
+	.navbar-nav li a:hover{
+		background-color: #E8E8E8;
+	}
+}
