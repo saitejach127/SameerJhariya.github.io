@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poopins:400,500,700');
 
+
 html, body{
 	height: 100%;
 	width: 100%;
 	font-family: 'Poopins' ,san-serif;
 	/*font-family: 'Arvo', serif;*/
-	color: #222;
+	/*color: #222;*/
 }
 
 
@@ -115,7 +116,8 @@ html, body{
 }
 
 .part2{
-	background: #549AF3;
+	background: rgb(34,139,34);
+	/*background: url("img/part2.png");*/
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat center center fixed;
@@ -131,11 +133,16 @@ html, body{
 	font-size: 20px;
 }
 .part3{
-	background: rgb(128,0,0);
+	background: url(img/bg4.gif);
 	width: 100%;
-	height: 100%;
+	height: 110%;
 	background-repeat: no-repeat center center fixed;
 	background-size: cover;
+	color: yellow;
+}
+.part4{
+	background: url(img/bg2.jpg);
+	background-repeat: no-repeat;
 }
 .Quote{
 	/*border-right: 20px
@@ -145,36 +152,33 @@ html, body{
 }
 
 
+
 .fa-facebook{
-	color: #3b5998; font-size: 2em;
+	color: #3b5998; font-size: 2em; padding: 1em; 
 }
 
 .fa-envelope{
-	color: #B23121; font-size: 2em;
+	color: #B23121; font-size: 2em; padding: 1em;
 }
 .fa-wordpress{
-	color: #21759b; font-size: 2em;
+	color: #21759b; font-size: 2em; padding: 1em;
 }
 .fa-instagram{
-	color: #c1558b; font-size: 2em;
-}
-.fa-youtube{
-	color: #bb0000; font-size: 2em;
+	color: #c1558b; font-size: 2em; padding: 1em;
 }
  .fa-facebook:hover,
  .fa-envelope:hover,
  .fa-wordpress:hover,
- .fa-instagram:hover,
- .fa-youtube:hover{
+ .fa-instagram:hover,{
  		color: #d5d5d5;
- 		font-size: 0.7em;
+ 		font-size: 2.5em;
  }
 
 
 
 
-@media(768px){
-
+@media(768px)
+{
 	.navbar-toggler{
 		margin: 10px 0px 10px 30px;
 		background-color: #888888;
