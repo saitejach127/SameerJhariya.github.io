@@ -142,7 +142,7 @@ html, body{
 }
 .part4{
 	background: url(img/bg2.jpg);
-	background-repeat: no-repeat;
+	background-repeat: no-repeat center center fixed;
 }
 .Quote{
 	/*border-right: 20px
